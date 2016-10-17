@@ -84,3 +84,8 @@ python pants-subproject-prep/subproject_prep.py
 This will then do all of the work described above and leave two patch files in 
 its wake, one describing the work performed and the other describing how to undo
 the work performed (just in case something went horribly wrong).
+
+Notes
+-----
+I have proposed a feature into upstream pantsbuild that would eliminate the
+need for this script. Follow the issue [here](https://github.com/pantsbuild/pants/issues/3978)
